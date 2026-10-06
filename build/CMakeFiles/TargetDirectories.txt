@@ -1,0 +1,3 @@
+/home/ashish/wifi-topology-mapper/build/CMakeFiles/wifiscope.dir
+/home/ashish/wifi-topology-mapper/build/CMakeFiles/edit_cache.dir
+/home/ashish/wifi-topology-mapper/build/CMakeFiles/rebuild_cache.dir

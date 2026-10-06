@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/ashish/wifi-topology-mapper/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

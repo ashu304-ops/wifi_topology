@@ -1,0 +1,49 @@
+graph WiFiScope {
+
+    graph [
+        layout=neato,
+        overlap=false,
+        splines=true,
+        bgcolor="white",
+        label="WiFiScope - Wi-Fi Network Topology",
+        labelloc=t,
+        fontsize=24,
+        fontname="Arial"
+    ];
+
+    node [
+        fontname="Arial",
+        fontsize=11,
+        style="filled,rounded",
+        margin=0.2
+    ];
+
+    edge [
+        penwidth=2,
+        color="gray40"
+    ];
+
+    internet [
+        label="INTERNET",
+        shape=cloud,
+        style=filled,
+        fontsize=14
+    ];
+
+    internet -- "192.168.0.1" [penwidth=3];
+
+    "192.168.0.108" [
+        label="LOCAL MACHINE\narchlinux\n192.168.0.108\n4c:bb:58:de:19:1a",
+        shape=box,
+        fontsize=12
+    ];
+
+    "192.168.0.1" [
+        label="ROUTER / GATEWAY\n_gateway\n192.168.0.1\n70:4f:57:59:6c:7c",
+        shape=box3d,
+        fontsize=12
+    ];
+
+    "192.168.0.1" -- "192.168.0.108";
+
+}
